@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ir.university.library.services.EmployeeServiceTest" time="0.011" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Alisan\project\se\src\se\target\test-classes;C:\Alisan\project\se\src\se\target\classes;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\alisa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alisa\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\alisa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\alisa\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\alisa\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\alisa\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\alisa\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\alisa\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\alisa\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Tehran"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\alisa\.jdks\openjdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\alisa\AppData\Local\Temp\surefire11436392340378151978\surefirebooter-20251123175453563_3.jar C:\Users\alisa\AppData\Local\Temp\surefire11436392340378151978 2025-11-23T17-54-53_483-jvmRun1 surefire-20251123175453563_1tmp surefire_0-20251123175453563_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Alisan\project\se\src\se\target\test-classes;C:\Alisan\project\se\src\se\target\classes;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\alisa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alisa\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\alisa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\alisa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\alisa\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\alisa\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\alisa\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\alisa\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\alisa\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\alisa\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\alisa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Users\alisa\.jdks\openjdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Alisan\project\se\src\se"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\alisa\AppData\Local\Temp\surefire11436392340378151978\surefirebooter-20251123175453563_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+36-3489"/>
+    <property name="user.name" value="alisa"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\alisa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\alisa\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2025.1.4.1"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Alisan\project\se\src\se"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\alisa\.jdks\openjdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\WireSock VPN Client\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\altera\90\quartus\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Bitvise SSH Client;C:\Users\alisa\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alisa\AppData\Local\Programs\Python\Python313\;C:\Users\alisa\AppData\Local\Programs\Python\Launcher\;C:\Users\alisa\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2024.3.4\bin;C:\Users\alisa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alisa\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.4.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+36-3489"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testToggleStudent" classname="ir.university.library.services.EmployeeServiceTest" time="0.002">
+    <system-out><![CDATA[
+--- employee login ---
+username: password: 
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: student username: new status: inactive
+
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: 
+--- employee login ---
+username: password: 
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: student username: new status: active
+
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: ]]></system-out>
+  </testcase>
+  <testcase name="testHandleBorrow_registerBorrow" classname="ir.university.library.services.EmployeeServiceTest" time="0.002">
+    <system-out><![CDATA[
+--- employee login ---
+username: password: 
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: 1. register a borrow
+2. register a return
+choice: approved borrow request id: the book got borrowed and the record registered successfully!.
+
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: ]]></system-out>
+  </testcase>
+  <testcase name="testAddBook" classname="ir.university.library.services.EmployeeServiceTest" time="0.001">
+    <system-out><![CDATA[
+--- employee login ---
+username: password: 
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: book title: author: year of publishing: book added.
+
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: ]]></system-out>
+  </testcase>
+  <testcase name="testHandleBorrow_registerReturn" classname="ir.university.library.services.EmployeeServiceTest" time="0.001">
+    <system-out><![CDATA[
+--- employee login ---
+username: password: 
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: 1. register a borrow
+2. register a return
+choice: borrow id: book returned successfully!.
+⚠️ book returned with delay!
+
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: ]]></system-out>
+  </testcase>
+  <testcase name="testChangePassword" classname="ir.university.library.services.EmployeeServiceTest" time="0.001">
+    <system-out><![CDATA[
+--- employee login ---
+username: password: 
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: new password: password has been changed!
+
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: ]]></system-out>
+  </testcase>
+  <testcase name="testApproveRequests" classname="ir.university.library.services.EmployeeServiceTest" time="0.001">
+    <system-out><![CDATA[
+--- employee login ---
+username: password: 
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: [4] book 26 for student 1 from 2025-11-23 until 2025-11-30 | status: Pending
+approve this request? (y/n): request approved successfully!.
+
+--- employee menu ---
+1. change password
+2. add a new book
+3. search and edit book
+4. check and approve requests
+5. students borrow report
+6. make a student active/inactive
+7. register a borrow or return
+0. exit
+choice: ]]></system-out>
+  </testcase>
+  <testcase name="testInvalidLogin" classname="ir.university.library.services.EmployeeServiceTest" time="0.0">
+    <system-out><![CDATA[
+--- employee login ---
+username: password: invalid credentials!
+]]></system-out>
+  </testcase>
+</testsuite>
