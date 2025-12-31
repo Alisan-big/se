@@ -12,7 +12,6 @@ public class LibraryService {
     public Admin admin = new Admin();
 
     public LibraryService() {
-        // چند داده اولیه برای تست
         books.add(new Book("software engineering", "Pressman", 2015, 1));
         books.add(new Book("system design", "Dennis", 2020, 1));
         employees.add(new Employee("emp1", "123"));
@@ -30,9 +29,27 @@ public class LibraryService {
         return null;
     }
 
+    public Student findStudentById(int id) {
+        for (Student s : students)
+            if (s.getId() == id) return s;
+        return null;
+    }
+
     public Employee findEmployeeByUsername(String username) {
         for (Employee e : employees)
             if (e.getUsername().equals(username)) return e;
+        return null;
+    }
+
+    public BorrowRequest findBorrowRequestById(int id) {
+        for (BorrowRequest r : requests)
+            if (r.getId() == id) return r;
+        return null;
+    }
+
+    public BorrowRecord findBorrowRecordById(int id) {
+        for (BorrowRecord r : records)
+            if (r.getId() == id) return r;
         return null;
     }
 }
